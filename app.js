@@ -9,47 +9,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/answer', (req, res) => {
-    let data = {
+    let data1 = {
         a: a,
         b: b,
         c: c,
-        d: d,
-        e: e,
-        f: f,
-        g: g,
-        h: h,
-        i: i,
-        j: j,
-        k: k,
-        l: l,
-        m: m,
-        n: n,
-        o: o,
-        p: p,
-        q: q,
-        r: r,
-        s: s,
-        t: t,
-        u: u,
-        v: v,
-        w: w,
-        x: x,
-        y: y,
-        z: z,
-        ab: ab,
-        ac: ac,
-        ad: ad,
-        ae: ae,
-        af: af,
-        ag: ag,
-        ah: ah,
-        ai: ai,
-        aj: aj,
-        ak: ak,
-        al: al,
-        am: am,
-        an: an,
-        ao: ao
+        d: d
     };
     
     res.send(data); //Send all the votes that everyone voted for and show them to the user
@@ -69,6 +33,16 @@ app.post('/answer', (req, res) => {
         d += 1;
     }
     
+    console.log(req.body.question1);
+    
+    let data2 = {
+        e: e,
+        f: f,
+        g: g,
+        h: h
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question2 == "e") {
         e += 1;
     }
@@ -85,6 +59,16 @@ app.post('/answer', (req, res) => {
         h += 1;
     }
     
+    console.log(req.body.question2);
+    
+    let data3 = {
+        i: i,
+        j: j,
+        k: k,
+        l: l
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question3 == "i") {
         i += 1;
     }
@@ -101,6 +85,16 @@ app.post('/answer', (req, res) => {
         l += 1;
     }
     
+    console.log(req.body.question3);
+    
+    let data4 = {
+        m: m,
+        n: n,
+        o: o,
+        p: p
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question4 == "m") {
         m += 1;
     }
@@ -117,6 +111,16 @@ app.post('/answer', (req, res) => {
         p += 1;
     }
     
+    console.log(req.body.question4);
+    
+    let data5 = {
+        q: q,
+        r: r,
+        s: s,
+        t: t
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question5 == "q") {
         q += 1;
     }
@@ -133,6 +137,16 @@ app.post('/answer', (req, res) => {
         t += 1;
     }
     
+    console.log(req.body.question5);
+    
+    let data6 = {
+        u: u,
+        v: v,
+        w: w,
+        x: x
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question6 == "u") {
         u += 1;
     }
@@ -149,6 +163,16 @@ app.post('/answer', (req, res) => {
         x += 1;
     }
     
+    console.log(req.body.question6);
+    
+    let data7 = {
+        y: y,
+        z: z,
+        ab: ab,
+        ac: ac
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question7 == "y") {
         y += 1;
     }
@@ -165,6 +189,16 @@ app.post('/answer', (req, res) => {
         ac += 1;
     }
     
+    console.log(req.body.question7);
+    
+    let data8 = {
+        ad: ad,
+        ae: ae,
+        af: af,
+        ag: ag
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question8 == "ad") {
         ad += 1;
     }
@@ -181,6 +215,16 @@ app.post('/answer', (req, res) => {
         ag += 1;
     }
     
+    console.log(req.body.question8);
+    
+    let data9 = {
+        ah: ah,
+        ai: ai,
+        aj: aj,
+        ak: ak
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question9 == "ah") {
         ah += 1;
     }
@@ -197,6 +241,16 @@ app.post('/answer', (req, res) => {
         ak += 1;
     }
     
+    console.log(req.body.question9);
+    
+    let data10 = {
+        al: al,
+        am: am,
+        an: an,
+        ao: ao
+    };
+    
+    res.send(data); //Send all the votes that everyone voted for and show them to the user
     if (req.body.question10 == "al") {
         al += 1;
     }
@@ -213,18 +267,9 @@ app.post('/answer', (req, res) => {
         ao += 1;
     }
     
-    console.log(req.body.question1);
-    console.log(req.body.question2);
-    console.log(req.body.question3);
-    console.log(req.body.question4);
-    console.log(req.body.question5);
-    console.log(req.body.question6);
-    console.log(req.body.question7);
-    console.log(req.body.question8);
-    console.log(req.body.question9);
     console.log(req.body.question10);
 });
-
+    
 app.listen(3000, () => {
     console.log('Server started...');
 });

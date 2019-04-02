@@ -9,6 +9,9 @@ app.get('/', (req, res) => {
 });
 
 app.post('/answer', (req, res) => {
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data1 = {
         a: a,
         b: b,
@@ -16,7 +19,7 @@ app.post('/answer', (req, res) => {
         d: d
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question1 == "a") {
         a += 1;
     }
@@ -35,6 +38,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question1);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data2 = {
         e: e,
         f: f,
@@ -42,7 +48,7 @@ app.post('/answer', (req, res) => {
         h: h
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question2 == "e") {
         e += 1;
     }
@@ -61,6 +67,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question2);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data3 = {
         i: i,
         j: j,
@@ -68,7 +77,7 @@ app.post('/answer', (req, res) => {
         l: l
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question3 == "i") {
         i += 1;
     }
@@ -87,6 +96,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question3);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data4 = {
         m: m,
         n: n,
@@ -94,7 +106,7 @@ app.post('/answer', (req, res) => {
         p: p
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question4 == "m") {
         m += 1;
     }
@@ -113,6 +125,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question4);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data5 = {
         q: q,
         r: r,
@@ -120,7 +135,7 @@ app.post('/answer', (req, res) => {
         t: t
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question5 == "q") {
         q += 1;
     }
@@ -139,6 +154,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question5);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data6 = {
         u: u,
         v: v,
@@ -146,7 +164,7 @@ app.post('/answer', (req, res) => {
         x: x
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question6 == "u") {
         u += 1;
     }
@@ -165,6 +183,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question6);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data7 = {
         y: y,
         z: z,
@@ -172,7 +193,7 @@ app.post('/answer', (req, res) => {
         ac: ac
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question7 == "y") {
         y += 1;
     }
@@ -191,6 +212,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question7);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data8 = {
         ad: ad,
         ae: ae,
@@ -198,7 +222,7 @@ app.post('/answer', (req, res) => {
         ag: ag
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question8 == "ad") {
         ad += 1;
     }
@@ -217,6 +241,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question8);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data9 = {
         ah: ah,
         ai: ai,
@@ -224,7 +251,7 @@ app.post('/answer', (req, res) => {
         ak: ak
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question9 == "ah") {
         ah += 1;
     }
@@ -243,6 +270,9 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question9);
     
+    //have method calculate the average
+    //have the method put the average into a percentage
+    //show the percentage to the user
     let data10 = {
         al: al,
         am: am,
@@ -250,7 +280,7 @@ app.post('/answer', (req, res) => {
         ao: ao
     };
     
-    res.send(data); //Send all the votes that everyone voted for and show them to the user
+    res.send(data); 
     if (req.body.question10 == "al") {
         al += 1;
     }

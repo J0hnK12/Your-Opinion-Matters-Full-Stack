@@ -15,43 +15,43 @@ let questionNine = [];
 let questionTen = [];
 
 fs.readFile('questionOne.json', async (err, data) => {
-    events = await JSON.parse(data); 
+    questionOne = await JSON.parse(data); 
 });
 
 fs.readFile('questionTwo.json', async (err, data) => {
-    students = await JSON.parse(data);
+    questionTwo = await JSON.parse(data);
 });
 
 fs.readFile('questionThree.json', async (err, data) => {
-    events = await JSON.parse(data); 
+    questionThree = await JSON.parse(data); 
 });
 
 fs.readFile('questionFour.json', async (err, data) => {
-    students = await JSON.parse(data);
+    questionFour = await JSON.parse(data);
 });
 
 fs.readFile('questionFive.json', async (err, data) => {
-    events = await JSON.parse(data); 
+    questionFive = await JSON.parse(data); 
 });
 
 fs.readFile('questionSix.json', async (err, data) => {
-    students = await JSON.parse(data);
+    questionSix = await JSON.parse(data);
 });
 
 fs.readFile('questionSeven.json', async (err, data) => {
-    events = await JSON.parse(data); 
+    questionSeven = await JSON.parse(data); 
 });
 
 fs.readFile('questionEight.json', async (err, data) => {
-    students = await JSON.parse(data);
+    questionEight = await JSON.parse(data);
 });
 
 fs.readFile('questionNine.json', async (err, data) => {
-    events = await JSON.parse(data); 
+    questionNine = await JSON.parse(data); 
 });
 
 fs.readFile('questionTen.json', async (err, data) => {
-    students = await JSON.parse(data);
+    questionTen = await JSON.parse(data);
 });
 
 app.use(express.static('public'));

@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
-//variables
+//readFile
 let questionOne = [];
 let questionTwo = [];
 let questionThree = [];

@@ -1,5 +1,58 @@
 const express = require('express');
+const fs = require('fs');
 const app = express();
+
+//variables
+let questionOne = [];
+let questionTwo = [];
+let questionThree = [];
+let questionFour = [];
+let questionFive = [];
+let questionSix = [];
+let questionSeven = [];
+let questionEight = [];
+let questionNine = [];
+let questionTen = [];
+
+fs.readFile('questionOne.json', async (err, data) => {
+    events = await JSON.parse(data); 
+});
+
+fs.readFile('questionTwo.json', async (err, data) => {
+    students = await JSON.parse(data);
+});
+
+fs.readFile('questionThree.json', async (err, data) => {
+    events = await JSON.parse(data); 
+});
+
+fs.readFile('questionFour.json', async (err, data) => {
+    students = await JSON.parse(data);
+});
+
+fs.readFile('questionFive.json', async (err, data) => {
+    events = await JSON.parse(data); 
+});
+
+fs.readFile('questionSix.json', async (err, data) => {
+    students = await JSON.parse(data);
+});
+
+fs.readFile('questionSeven.json', async (err, data) => {
+    events = await JSON.parse(data); 
+});
+
+fs.readFile('questionEight.json', async (err, data) => {
+    students = await JSON.parse(data);
+});
+
+fs.readFile('questionNine.json', async (err, data) => {
+    events = await JSON.parse(data); 
+});
+
+fs.readFile('questionTen.json', async (err, data) => {
+    students = await JSON.parse(data);
+});
 
 app.use(express.static('public'));
 app.use(express.json());

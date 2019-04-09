@@ -13,46 +13,46 @@ let questionSeven = [];
 let questionEight = [];
 let questionNine = [];
 let questionTen = [];
-let choice1 = a;
-let choice2 = b;
-let choice3 = c;
-let choice4 = d;
-let choice5 = e;
-let choice6 = f;
-let choice7 = g;
-let choice8 = h;
-let choice9 = i;
-let choice10 = j;
-let choice11 = k;
-let choice12 = l;
-let choice13 = m;
-let choice14 = n;
-let choice15 = o;
-let choice16 = p;
-let choice17 = q;
-let choice18 = r;
-let choice19 = s;
-let choice20 = t;
-let choice21 = u;
-let choice22 = v;
-let choice23 = w;
-let choice24 = x;
-let choice25 = y;
-let choice26 = z;
-let choice27 = ab;
-let choice28 = ac;
-let choice29 = ad;
-let choice30 = ae;
-let choice31 = af;
-let choice32 = ag;
-let choice33 = ah;
-let choice34 = ai;
-let choice35 = aj;
-let choice36 = ak;
-let choice37 = al;
-let choice38 = am;
-let choice39 = an;
-let choice40 = ao;
+let choice1 = 0;        //a
+let choice2 = 0;        //b
+let choice3 = 0;        //c
+let choice4 = 0;        //d
+let choice5 = 0;        //e
+let choice6 = 0;        //f
+let choice7 = 0;        //g
+let choice8 = 0;        //h
+let choice9 = 0;        //i
+let choice10 = 0;       //j
+let choice11 = 0;       //k
+let choice12 = 0;       //l
+let choice13 = 0;       //m
+let choice14 = 0;       //n
+let choice15 = 0;       //o
+let choice16 = 0;       //p
+let choice17 = 0;       //q
+let choice18 = 0;       //r
+let choice19 = 0;       //s
+let choice20 = 0;       //t
+let choice21 = 0;       //u
+let choice22 = 0;       //v
+let choice23 = 0;       //w
+let choice24 = 0;       //x
+let choice25 = 0;       //y
+let choice26 = 0;       //z
+let choice27 = 0;       //ab
+let choice28 = 0;       //ac
+let choice29 = 0;       //ad
+let choice30 = 0;       //ae
+let choice31 = 0;       //af
+let choice32 = 0;       //ag
+let choice33 = 0;       //ah
+let choice34 = 0;       //ai
+let choice35 = 0;       //aj
+let choice36 = 0;       //ak
+let choice37 = 0;       //al
+let choice38 = 0;       //am
+let choice39 = 0;       //an
+let choice40 = 0;       //ao
 
 fs.readFile('questionOne.json', async (err, data) => {
     questionOne = await JSON.parse(data); 
@@ -115,19 +115,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question1 == "a") {
-        a += 1;
+        choice1 += 1;
     }
     
     if (req.body.question1 == "b") {
-        b += 1;
+        choice2 += 1;
     }
     
     if (req.body.question1 == "c") {
-        c += 1;
+        choice2 += 1;
     }
     
     if (req.body.question1 == "d") {
-        d += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question1);
@@ -145,19 +145,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question2 == "e") {
-        e += 1;
+        choice2 += 1;;
     }
     
     if (req.body.question2 == "f") {
-        f += 1;
+        choice2 += 1;;
     }
     
     if (req.body.question2 == "g") {
-        g += 1;
+        choice2 += 1;;
     }
     
     if (req.body.question2 == "h") {
-        h += 1;
+        choice2 += 1;;
     }
     
     console.log(req.body.question2);
@@ -175,19 +175,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question3 == "i") {
-        i += 1;
+        choice2 += 1;
     }
     
     if (req.body.question3 == "j") {
-        j += 1;
+        choice2 += 1;
     }
     
     if (req.body.question3 == "k") {
-        k += 1;
+        choice2 += 1;
     }
     
     if (req.body.question3 == "l") {
-        l += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question3);
@@ -205,19 +205,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question4 == "m") {
-        m += 1;
+        choice2 += 1;
     }
     
     if (req.body.question4 == "n") {
-        n += 1;
+        choice2 += 1;
     }
     
     if (req.body.question4 == "o") {
-        o += 1;
+        choice2 += 1;
     }
     
     if (req.body.question4 == "p") {
-        p += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question4);
@@ -235,19 +235,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question5 == "q") {
-        q += 1;
+        choice2 += 1;
     }
     
     if (req.body.question5 == "r") {
-        r += 1;
+        choice2 += 1;
     }
     
     if (req.body.question5 == "s") {
-        s += 1;
+        choice2 += 1;
     }
     
     if (req.body.question5 == "t") {
-        t += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question5);
@@ -265,19 +265,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question6 == "u") {
-        u += 1;
+        choice2 += 1;
     }
     
     if (req.body.question6 == "v") {
-        v += 1;
+        choice2 += 1;
     }
     
     if (req.body.question6 == "w") {
-        w += 1;
+        choice2 += 1;
     }
     
     if (req.body.question6 == "x") {
-        x += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question6);
@@ -295,19 +295,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question7 == "y") {
-        y += 1;
+        choice2 += 1;
     }
     
     if (req.body.question7 == "z") {
-        z += 1;
+        choice2 += 1;
     }
     
     if (req.body.question7 == "ab") {
-        ab += 1;
+        choice2 += 1;
     }
     
     if (req.body.question7 == "ac") {
-        ac += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question7);
@@ -325,19 +325,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question8 == "ad") {
-        ad += 1;
+        choice2 += 1;
     }
     
     if (req.body.question8 == "ae") {
-        ae += 1;
+        choice2 += 1;
     }
     
     if (req.body.question8 == "af") {
-        af += 1;
+        choice2 += 1;
     }
     
     if (req.body.question8 == "ag") {
-        ag += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question8);
@@ -355,19 +355,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question9 == "ah") {
-        ah += 1;
+        choice2 += 1;
     }
     
     if (req.body.question9 == "ai") {
-        ai += 1;
+        choice2 += 1;
     }
     
     if (req.body.question9 == "aj") {
-        aj += 1;
+        choice2 += 1;
     }
     
     if (req.body.question9 == "ak") {
-        ak += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question9);
@@ -385,19 +385,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question10 == "al") {
-        al += 1;
+        choice2 += 1;
     }
     
     if (req.body.question10 == "am") {
-        am += 1;
+        choice2 += 1;
     }
     
     if (req.body.question10 == "an") {
-        an += 1;
+        choice2 += 1;
     }
     
     if (req.body.question10 == "ao") {
-        ao += 1;
+        choice2 += 1;
     }
     
     console.log(req.body.question10);

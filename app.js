@@ -123,11 +123,11 @@ app.post('/answer', (req, res) => {
     }
     
     if (req.body.question1 == "c") {
-        choice2 += 1;
+        choice3 += 1;
     }
     
     if (req.body.question1 == "d") {
-        choice2 += 1;
+        choice4 += 1;
     }
     
     console.log(req.body.question1);
@@ -145,19 +145,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question2 == "e") {
-        choice2 += 1;;
+        choice5 += 1;;
     }
     
     if (req.body.question2 == "f") {
-        choice2 += 1;;
+        choice6 += 1;;
     }
     
     if (req.body.question2 == "g") {
-        choice2 += 1;;
+        choice7 += 1;;
     }
     
     if (req.body.question2 == "h") {
-        choice2 += 1;;
+        choice8 += 1;;
     }
     
     console.log(req.body.question2);
@@ -175,19 +175,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question3 == "i") {
-        choice2 += 1;
+        choice9 += 1;
     }
     
     if (req.body.question3 == "j") {
-        choice2 += 1;
+        choice10 += 1;
     }
     
     if (req.body.question3 == "k") {
-        choice2 += 1;
+        choice11 += 1;
     }
     
     if (req.body.question3 == "l") {
-        choice2 += 1;
+        choice12 += 1;
     }
     
     console.log(req.body.question3);
@@ -205,19 +205,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question4 == "m") {
-        choice2 += 1;
+        choice13 += 1;
     }
     
     if (req.body.question4 == "n") {
-        choice2 += 1;
+        choice14 += 1;
     }
     
     if (req.body.question4 == "o") {
-        choice2 += 1;
+        choice15 += 1;
     }
     
     if (req.body.question4 == "p") {
-        choice2 += 1;
+        choice16 += 1;
     }
     
     console.log(req.body.question4);
@@ -235,19 +235,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question5 == "q") {
-        choice2 += 1;
+        choice17 += 1;
     }
     
     if (req.body.question5 == "r") {
-        choice2 += 1;
+        choice18 += 1;
     }
     
     if (req.body.question5 == "s") {
-        choice2 += 1;
+        choice19 += 1;
     }
     
     if (req.body.question5 == "t") {
-        choice2 += 1;
+        choice20 += 1;
     }
     
     console.log(req.body.question5);
@@ -265,19 +265,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question6 == "u") {
-        choice2 += 1;
+        choice21 += 1;
     }
     
     if (req.body.question6 == "v") {
-        choice2 += 1;
+        choice22 += 1;
     }
     
     if (req.body.question6 == "w") {
-        choice2 += 1;
+        choice23 += 1;
     }
     
     if (req.body.question6 == "x") {
-        choice2 += 1;
+        choice24 += 1;
     }
     
     console.log(req.body.question6);
@@ -295,19 +295,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question7 == "y") {
-        choice2 += 1;
+        choice25 += 1;
     }
     
     if (req.body.question7 == "z") {
-        choice2 += 1;
+        choice26 += 1;
     }
     
     if (req.body.question7 == "ab") {
-        choice2 += 1;
+        choice27 += 1;
     }
     
     if (req.body.question7 == "ac") {
-        choice2 += 1;
+        choice28 += 1;
     }
     
     console.log(req.body.question7);
@@ -325,19 +325,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question8 == "ad") {
-        choice2 += 1;
+        choice29 += 1;
     }
     
     if (req.body.question8 == "ae") {
-        choice2 += 1;
+        choice30 += 1;
     }
     
     if (req.body.question8 == "af") {
-        choice2 += 1;
+        choice31 += 1;
     }
     
     if (req.body.question8 == "ag") {
-        choice2 += 1;
+        choice32 += 1;
     }
     
     console.log(req.body.question8);
@@ -355,19 +355,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question9 == "ah") {
-        choice2 += 1;
+        choice33 += 1;
     }
     
     if (req.body.question9 == "ai") {
-        choice2 += 1;
+        choice34 += 1;
     }
     
     if (req.body.question9 == "aj") {
-        choice2 += 1;
+        choice35 += 1;
     }
     
     if (req.body.question9 == "ak") {
-        choice2 += 1;
+        choice36 += 1;
     }
     
     console.log(req.body.question9);
@@ -385,19 +385,19 @@ app.post('/answer', (req, res) => {
     
     res.send(data); 
     if (req.body.question10 == "al") {
-        choice2 += 1;
+        choice37 += 1;
     }
     
     if (req.body.question10 == "am") {
-        choice2 += 1;
+        choice38 += 1;
     }
     
     if (req.body.question10 == "an") {
-        choice2 += 1;
+        choice39 += 1;
     }
     
     if (req.body.question10 == "ao") {
-        choice2 += 1;
+        choice40 += 1;
     }
     
     console.log(req.body.question10);

@@ -105,10 +105,6 @@ app.get('/', (req, res) => {
 });
 
 app.post('/answer', (req, res) => {
-    //if a == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if b == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if c == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if d == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data1 = {
         a: a,
         b: b,
@@ -143,10 +139,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question1);
     
-    //if e == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if f == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if g == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if h == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data2 = {
         e: e,
         f: f,
@@ -181,10 +173,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question2);
     
-    //if i == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if j == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if k == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if l == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data3 = {
         i: i,
         j: j,
@@ -219,10 +207,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question3);
     
-    //if m == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if n == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if o == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if p == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data4 = {
         m: m,
         n: n,
@@ -257,10 +241,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question4);
     
-    //if q == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if r == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if s == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if t == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data5 = {
         q: q,
         r: r,
@@ -295,10 +275,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question5);
     
-    //if u == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if v == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if w == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if x == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data6 = {
         u: u,
         v: v,
@@ -333,10 +309,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question6);
     
-    //if y == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if z == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if ab == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if ac == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data7 = {
         y: y,
         z: z,
@@ -371,10 +343,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question7);
     
-    //if ad == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if ae == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if af == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if ag == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data8 = {
         ad: ad,
         ae: ae,
@@ -409,10 +377,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question8);
     
-    //if ah == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if ai == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if aj == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if ak == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data9 = {
         ah: ah,
         ai: ai,
@@ -447,10 +411,6 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question9);
     
-    //if al == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if am == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if an == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
-    //if ao == true, then take that number and divide it by the sum of the three other choices and then multiply that number by 100
     let data10 = {
         al: al,
         am: am,

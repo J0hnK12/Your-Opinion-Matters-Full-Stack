@@ -55,32 +55,7 @@ let choice37 = 0;       //al
 let choice38 = 0;       //am
 let choice39 = 0;       //an
 let choice40 = 0;       //ao
-
-//all the averages
-let average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100;        
-let average2 = ((choice2) / (choice1 + choice3 + choice4)) * 100;        
-let average3 = ((choice3) / (choice2 + choice1 + choice4)) * 100;        
-let average4 = ((choice4) / (choice2 + choice3 + choice1)) * 100;        
-let average5 = ((choice5) / (choice6 + choice7 + choice8)) * 100;        
-let average6 = ((choice6) / (choice5 + choice7 + choice8)) * 100;        
-let average7 = ((choice7) / (choice6 + choice5 + choice8)) * 100;        
-let average8 = ((choice8) / (choice6 + choice7 + choice5)) * 100;        
-let average9 = ((choice9) / (choice10 + choice11 + choice12)) * 100;        
-let average10 = ((choice10) / (choice9 + choice11 + choice12)) * 100;       
-let average11 = ((choice11) / (choice10 + choice9 + choice12)) * 100;       
-let average12 = ((choice12) / (choice10 + choice11 + choice9)) * 100;       
-let average13 = ((choice13) / (choice14 + choice15 + choice16)) * 100;       
-let average14 = ((choice14) / (choice13 + choice15 + choice16)) * 100;       
-let average15 = ((choice15) / (choice14 + choice13 + choice16)) * 100;       
-let average16 = ((choice16) / (choice14 + choice15 + choice13)) * 100;       
-let average17 = ((choice17) / (choice18 + choice19 + choice20)) * 100;       
-let average18 = ((choice18) / (choice17 + choice19 + choice20)) * 100;       
-let average19 = ((choice19) / (choice18 + choice17 + choice20)) * 100;       
-let average20 = ((choice20) / (choice18 + choice19 + choice17)) * 100;       
-let average21 = ((choice21) / (choice22 + choice23 + choice24)) * 100;       
-let average22 = ((choice22) / (choice21 + choice23 + choice24)) * 100;       
-let average23 = ((choice23) / (choice22 + choice21 + choice24)) * 100;       
-let average24 = ((choice24) / (choice22 + choice23 + choice21)) * 100;       
+  
 let average25 = ((choice25) / (choice26 + choice27 + choice28)) * 100;       
 let average26 = ((choice26) / (choice25 + choice27 + choice28)) * 100;       
 let average27 = ((choice27) / (choice26 + choice25 + choice28)) * 100;       
@@ -157,22 +132,30 @@ app.post('/answer', (req, res) => {
     res.send(data1); 
     if (req.body.question1 == "a") {
         choice1 += 1;
-        average1();
+        function average1() {
+            let average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question1 == "b") {
         choice2 += 1;
-        average2();
+        function average2() {
+            let average2 = ((choice2) / (choice1 + choice3 + choice4)) * 100 + "%"; 
+        }
     }
     
     if (req.body.question1 == "c") {
         choice3 += 1;
-        average3();
+        function average3() {
+            let average3 = ((choice3) / (choice2 + choice1 + choice4)) * 100 + "%";  
+        }
     }
     
     if (req.body.question1 == "d") {
         choice4 += 1;
-        average4();
+        function average4() {
+            let average4 = ((choice4) / (choice2 + choice3 + choice1)) * 100 + "%";
+        }
     }
     
     console.log(req.body.question1);
@@ -187,22 +170,30 @@ app.post('/answer', (req, res) => {
     res.send(data2); 
     if (req.body.question2 == "e") {
         choice5 += 1;
-        average5();
+        function average1() {
+            let average5 = ((choice5) / (choice6 + choice7 + choice8)) * 100;
+        }
     }
     
     if (req.body.question2 == "f") {
         choice6 += 1;
-        average6();
+        function average1() {
+            let average6 = ((choice6) / (choice5 + choice7 + choice8)) * 100;
+        }
     }
     
     if (req.body.question2 == "g") {
         choice7 += 1;
-        average7();
+        function average1() {
+            let average7 = ((choice7) / (choice6 + choice5 + choice8)) * 100;  
+        }
     }
     
     if (req.body.question2 == "h") {
         choice8 += 1;
-        average8();
+        function average1() {
+            let average8 = ((choice8) / (choice6 + choice7 + choice5)) * 100; 
+        }
     }
     
     console.log(req.body.question2);
@@ -217,22 +208,30 @@ app.post('/answer', (req, res) => {
     res.send(data3); 
     if (req.body.question3 == "i") {
         choice9 += 1;
-        average9();
+        function average1() {
+            let average9 = ((choice9) / (choice10 + choice11 + choice12)) * 100;
+        }
     }
     
     if (req.body.question3 == "j") {
         choice10 += 1;
-        average10();
+        function average10() {
+            let average10 = ((choice10) / (choice9 + choice11 + choice12)) * 100; 
+        }
     }
     
     if (req.body.question3 == "k") {
         choice11 += 1;
-        average11();
+        function average11() {
+            let average11 = ((choice11) / (choice10 + choice9 + choice12)) * 100;
+        }
     }
     
     if (req.body.question3 == "l") {
         choice12 += 1;
-        average12();
+        function average12() {
+            let average12 = ((choice12) / (choice10 + choice11 + choice9)) * 100;
+        }
     }
     
     console.log(req.body.question3);
@@ -247,22 +246,30 @@ app.post('/answer', (req, res) => {
     res.send(data4); 
     if (req.body.question4 == "m") {
         choice13 += 1;
-        average13();
+        function average13() {
+            let average13 = ((choice13) / (choice14 + choice15 + choice16)) * 100;
+        }
     }
     
     if (req.body.question4 == "n") {
         choice14 += 1;
-        average14();
+        function average14() {
+            let average14 = ((choice14) / (choice13 + choice15 + choice16)) * 100;
+        }
     }
     
     if (req.body.question4 == "o") {
         choice15 += 1;
-        average15();
+        function average15() {
+            let average15 = ((choice15) / (choice14 + choice13 + choice16)) * 100;
+        }
     }
     
     if (req.body.question4 == "p") {
         choice16 += 1;
-        average16();
+        function average16() {
+            let average16 = ((choice16) / (choice14 + choice15 + choice13)) * 100;
+        }
     }
     
     console.log(req.body.question4);
@@ -277,22 +284,30 @@ app.post('/answer', (req, res) => {
     res.send(data5); 
     if (req.body.question5 == "q") {
         choice17 += 1;
-        average17();
+        function average17() {
+            let average17 = ((choice17) / (choice18 + choice19 + choice20)) * 100;
+        }
     }
     
     if (req.body.question5 == "r") {
         choice18 += 1;
-        average18();
+        function average18() {
+            let average18 = ((choice18) / (choice17 + choice19 + choice20)) * 100;
+        }
     }
     
     if (req.body.question5 == "s") {
         choice19 += 1;
-        average19();
+        function average1() {
+            let average19 = ((choice19) / (choice18 + choice17 + choice20)) * 100;
+        }
     }
     
     if (req.body.question5 == "t") {
         choice20 += 1;
-        average20();
+        function average1() {
+            let average20 = ((choice20) / (choice18 + choice19 + choice17)) * 100;
+        }
     }
     
     console.log(req.body.question5);
@@ -307,22 +322,30 @@ app.post('/answer', (req, res) => {
     res.send(data6); 
     if (req.body.question6 == "u") {
         choice21 += 1;
-        average21();
+        function average1() {
+            let average21 = ((choice21) / (choice22 + choice23 + choice24)) * 100;
+        }
     }
     
     if (req.body.question6 == "v") {
         choice22 += 1;
-        average22();
+        function average1() {
+            let average22 = ((choice22) / (choice21 + choice23 + choice24)) * 100;
+        }
     }
     
     if (req.body.question6 == "w") {
         choice23 += 1;
-        average23();
+        function average1() {
+            let average23 = ((choice23) / (choice22 + choice21 + choice24)) * 100; 
+        }
     }
     
     if (req.body.question6 == "x") {
         choice24 += 1;
-        average24();
+        function average1() {
+            let average24 = ((choice24) / (choice22 + choice23 + choice21)) * 100;
+        }
     }
     
     console.log(req.body.question6);
@@ -337,22 +360,30 @@ app.post('/answer', (req, res) => {
     res.send(data7); 
     if (req.body.question7 == "y") {
         choice25 += 1;
-        average25();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question7 == "z") {
         choice26 += 1;
-        average26();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question7 == "ab") {
         choice27 += 1;
-        average27();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question7 == "ac") {
         choice28 += 1;
-        average28();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     console.log(req.body.question7);
@@ -367,22 +398,30 @@ app.post('/answer', (req, res) => {
     res.send(data8); 
     if (req.body.question8 == "ad") {
         choice29 += 1;
-        average29();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question8 == "ae") {
         choice30 += 1;
-        average30();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question8 == "af") {
         choice31 += 1;
-        average31();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question8 == "ag") {
         choice32 += 1;
-        average32();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     console.log(req.body.question8);
@@ -397,22 +436,30 @@ app.post('/answer', (req, res) => {
     res.send(data9); 
     if (req.body.question9 == "ah") {
         choice33 += 1;
-        average33();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question9 == "ai") {
         choice34 += 1;
-        average34();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question9 == "aj") {
         choice35 += 1;
-        average35();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question9 == "ak") {
         choice36 += 1;
-        average36();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     console.log(req.body.question9);
@@ -427,22 +474,30 @@ app.post('/answer', (req, res) => {
     res.send(data10); 
     if (req.body.question10 == "al") {
         choice37 += 1;
-        average37();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question10 == "am") {
         choice38 += 1;
-        average38();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question10 == "an") {
         choice39 += 1;
-        average39();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     if (req.body.question10 == "ao") {
         choice40 += 1;
-        average40();
+        function average1() {
+            var average1 = ((choice1) / (choice2 + choice3 + choice4)) * 100 + "%";
+        }
     }
     
     console.log(req.body.question10);

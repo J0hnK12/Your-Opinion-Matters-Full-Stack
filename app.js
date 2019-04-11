@@ -157,22 +157,22 @@ app.post('/answer', (req, res) => {
     res.send(data1); 
     if (req.body.question1 == "a") {
         choice1 += 1;
-        //get the percentage to show up after the user clicks the button
+        average1();
     }
     
     if (req.body.question1 == "b") {
         choice2 += 1;
-        //get the percentage to show up after the user clicks the button
+        average2();
     }
     
     if (req.body.question1 == "c") {
         choice3 += 1;
-        //get the percentage to show up after the user clicks the button
+        average3();
     }
     
     if (req.body.question1 == "d") {
         choice4 += 1;
-        //get the percentage to show up after the user clicks the button
+        average4();
     }
     
     console.log(req.body.question1);
@@ -187,22 +187,22 @@ app.post('/answer', (req, res) => {
     res.send(data2); 
     if (req.body.question2 == "e") {
         choice5 += 1;
-        //get the percentage to show up after the user clicks the button
+        average5();
     }
     
     if (req.body.question2 == "f") {
         choice6 += 1;
-        //get the percentage to show up after the user clicks the button
+        average6();
     }
     
     if (req.body.question2 == "g") {
         choice7 += 1;
-        //get the percentage to show up after the user clicks the button
+        average7();
     }
     
     if (req.body.question2 == "h") {
         choice8 += 1;
-        //get the percentage to show up after the user clicks the button
+        average8();
     }
     
     console.log(req.body.question2);
@@ -217,22 +217,22 @@ app.post('/answer', (req, res) => {
     res.send(data3); 
     if (req.body.question3 == "i") {
         choice9 += 1;
-        //get the percentage to show up after the user clicks the button
+        average9();
     }
     
     if (req.body.question3 == "j") {
         choice10 += 1;
-        //get the percentage to show up after the user clicks the button
+        average10();
     }
     
     if (req.body.question3 == "k") {
         choice11 += 1;
-        //get the percentage to show up after the user clicks the button
+        average11();
     }
     
     if (req.body.question3 == "l") {
         choice12 += 1;
-        //get the percentage to show up after the user clicks the button
+        average12();
     }
     
     console.log(req.body.question3);
@@ -247,22 +247,22 @@ app.post('/answer', (req, res) => {
     res.send(data4); 
     if (req.body.question4 == "m") {
         choice13 += 1;
-        //get the percentage to show up after the user clicks the button
+        average13();
     }
     
     if (req.body.question4 == "n") {
         choice14 += 1;
-        //get the percentage to show up after the user clicks the button
+        average14();
     }
     
     if (req.body.question4 == "o") {
         choice15 += 1;
-        //get the percentage to show up after the user clicks the button
+        average15();
     }
     
     if (req.body.question4 == "p") {
         choice16 += 1;
-        //get the percentage to show up after the user clicks the button
+        average16();
     }
     
     console.log(req.body.question4);
@@ -277,22 +277,22 @@ app.post('/answer', (req, res) => {
     res.send(data5); 
     if (req.body.question5 == "q") {
         choice17 += 1;
-        //get the percentage to show up after the user clicks the button
+        average17();
     }
     
     if (req.body.question5 == "r") {
         choice18 += 1;
-        //get the percentage to show up after the user clicks the button
+        average18();
     }
     
     if (req.body.question5 == "s") {
         choice19 += 1;
-        //get the percentage to show up after the user clicks the button
+        average19();
     }
     
     if (req.body.question5 == "t") {
         choice20 += 1;
-        //get the percentage to show up after the user clicks the button
+        average20();
     }
     
     console.log(req.body.question5);
@@ -307,22 +307,22 @@ app.post('/answer', (req, res) => {
     res.send(data6); 
     if (req.body.question6 == "u") {
         choice21 += 1;
-        //get the percentage to show up after the user clicks the button
+        average21();
     }
     
     if (req.body.question6 == "v") {
         choice22 += 1;
-        //get the percentage to show up after the user clicks the button
+        average22();
     }
     
     if (req.body.question6 == "w") {
         choice23 += 1;
-        //get the percentage to show up after the user clicks the button
+        average23();
     }
     
     if (req.body.question6 == "x") {
         choice24 += 1;
-        //get the percentage to show up after the user clicks the button
+        average24();
     }
     
     console.log(req.body.question6);
@@ -337,22 +337,22 @@ app.post('/answer', (req, res) => {
     res.send(data7); 
     if (req.body.question7 == "y") {
         choice25 += 1;
-        //get the percentage to show up after the user clicks the button
+        average25();
     }
     
     if (req.body.question7 == "z") {
         choice26 += 1;
-        //get the percentage to show up after the user clicks the button
+        average26();
     }
     
     if (req.body.question7 == "ab") {
         choice27 += 1;
-        //get the percentage to show up after the user clicks the button
+        average27();
     }
     
     if (req.body.question7 == "ac") {
         choice28 += 1;
-        //get the percentage to show up after the user clicks the button
+        average28();
     }
     
     console.log(req.body.question7);
@@ -367,22 +367,22 @@ app.post('/answer', (req, res) => {
     res.send(data8); 
     if (req.body.question8 == "ad") {
         choice29 += 1;
-        //get the percentage to show up after the user clicks the button
+        average29();
     }
     
     if (req.body.question8 == "ae") {
         choice30 += 1;
-        //get the percentage to show up after the user clicks the button
+        average30();
     }
     
     if (req.body.question8 == "af") {
         choice31 += 1;
-        //get the percentage to show up after the user clicks the button
+        average31();
     }
     
     if (req.body.question8 == "ag") {
         choice32 += 1;
-        //get the percentage to show up after the user clicks the button
+        average32();
     }
     
     console.log(req.body.question8);
@@ -397,22 +397,22 @@ app.post('/answer', (req, res) => {
     res.send(data9); 
     if (req.body.question9 == "ah") {
         choice33 += 1;
-        //get the percentage to show up after the user clicks the button
+        average33();
     }
     
     if (req.body.question9 == "ai") {
         choice34 += 1;
-        //get the percentage to show up after the user clicks the button
+        average34();
     }
     
     if (req.body.question9 == "aj") {
         choice35 += 1;
-        //get the percentage to show up after the user clicks the button
+        average35();
     }
     
     if (req.body.question9 == "ak") {
         choice36 += 1;
-        //get the percentage to show up after the user clicks the button
+        average36();
     }
     
     console.log(req.body.question9);
@@ -427,22 +427,22 @@ app.post('/answer', (req, res) => {
     res.send(data10); 
     if (req.body.question10 == "al") {
         choice37 += 1;
-        //get the percentage to show up after the user clicks the button
+        average37();
     }
     
     if (req.body.question10 == "am") {
         choice38 += 1;
-        //get the percentage to show up after the user clicks the button
+        average38();
     }
     
     if (req.body.question10 == "an") {
         choice39 += 1;
-        //get the percentage to show up after the user clicks the button
+        average39();
     }
     
     if (req.body.question10 == "ao") {
         choice40 += 1;
-        //get the percentage to show up after the user clicks the button
+        average40();
     }
     
     console.log(req.body.question10);

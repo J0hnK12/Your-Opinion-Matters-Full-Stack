@@ -105,6 +105,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/answer', (req, res) => {
+    //question 1
     let data1 = {
         a: a,
         b: b,
@@ -143,6 +144,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question1);
     
+    //question 2
     let data2 = {
         e: e,
         f: f,
@@ -181,6 +183,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question2);
     
+    //question 3
     let data3 = {
         i: i,
         j: j,
@@ -219,6 +222,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question3);
     
+    //question 4
     let data4 = {
         m: m,
         n: n,
@@ -257,6 +261,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question4);
     
+    //question 5
     let data5 = {
         q: q,
         r: r,
@@ -295,6 +300,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question5);
     
+    //question 6
     let data6 = {
         u: u,
         v: v,
@@ -333,6 +339,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question6);
     
+    //question 7
     let data7 = {
         y: y,
         z: z,
@@ -371,6 +378,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question7);
     
+    //question 8
     let data8 = {
         ad: ad,
         ae: ae,
@@ -409,6 +417,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question8);
     
+    //question 9
     let data9 = {
         ah: ah,
         ai: ai,
@@ -447,6 +456,7 @@ app.post('/answer', (req, res) => {
     
     console.log(req.body.question9);
     
+    //question 10
     let data10 = {
         al: al,
         am: am,

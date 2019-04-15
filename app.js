@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
-//question empty arrays
+//empty question arrays
 let questionOne = [];
 let questionTwo = [];
 let questionThree = [];

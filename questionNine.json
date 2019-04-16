@@ -1,8 +1,8 @@
 {
     "question": "Would you rather have...",
-    "choices": ["Bigger hands than your arms", ">Bigger feet than your legs", "Bigger fingers than your hands", "A giant head and a small body"],
-    "choice1": 0,
-    "choice2": 0,
-    "choice3": 0,
-    "choice4": 0
+    "choices": ["Survivor in a zombie apocalypse, but doesn't know how to fight", "Zombie in the apocalypse, and be able to resurrect fellow zombies", "Survivor in a zombie apocalypse, but fighting the horde yourself", "Zombie in the apocalypse, but every survivor you see, you lose a limb"],
+    "choice33": 0,
+    "choice34": 0,
+    "choice35": 0,
+    "choice36": 0
 }

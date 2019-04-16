@@ -1,8 +1,8 @@
 {
     "question": "Would you rather play...",
     "choices": ["A musical instrument that doesn't work", "Music but not being able to hear", "Music and always be off tempo", "A musical instrument that works, but the pitches of the instrument are always too high or too low"],
-    "choice1": 0,
-    "choice2": 0,
-    "choice3": 0,
-    "choice4": 0
+    "choice13": 0,
+    "choice14": 0,
+    "choice15": 0,
+    "choice16": 0
 }

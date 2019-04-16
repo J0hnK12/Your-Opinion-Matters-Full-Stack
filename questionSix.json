@@ -1,8 +1,8 @@
 {
     "question": "Would you rather have...",
-    "choices": ["Bigger hands than your arms", ">Bigger feet than your legs", "Bigger fingers than your hands", "A giant head and a small body"],
-    "choice1": 0,
-    "choice2": 0,
-    "choice3": 0,
-    "choice4": 0
+    "choices": ["Car that doesn't drive", "Truck that doesn't drive", "Car that can drive, but goes at a snails pace on the highway and everyone else is zooming past you", "Truck that can drive, but get pulled over everytime you pass a cop"],
+    "choice21": 0,
+    "choice22": 0,
+    "choice23": 0,
+    "choice24": 0
 }

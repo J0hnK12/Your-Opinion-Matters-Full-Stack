@@ -1,8 +1,8 @@
 {
-    "question": "Would you rather have...",
-    "choices": ["Bigger hands than your arms", ">Bigger feet than your legs", "Bigger fingers than your hands", "A giant head and a small body"],
-    "choice1": 0,
-    "choice2": 0,
-    "choice3": 0,
-    "choice4": 0
+    "question": "Would you rather...",
+    "choices": ["Graduate high school but not getting a job and being poor", "Drop out of high school and become successful later", "Graduate high school and go into a drug addiction that you were never cured from", "Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family has died"],
+    "choice37": 0,
+    "choice38": 0,
+    "choice39": 0,
+    "choice40": 0
 }

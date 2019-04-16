@@ -1,8 +1,8 @@
 {
-    "question": "Would you rather have...",
-    "choices": ["Bigger hands than your arms", ">Bigger feet than your legs", "Bigger fingers than your hands", "A giant head and a small body"],
-    "choice1": 0,
-    "choice2": 0,
-    "choice3": 0,
-    "choice4": 0
+    "question": "Would you rather have eat a...",
+    "choices": ["Cockroach", "Maggot", "Brain", "Cow's tongue"],
+    "choice25": 0,
+    "choice26": 0,
+    "choice27": 0,
+    "choice28": 0
 }

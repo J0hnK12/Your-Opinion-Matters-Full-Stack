@@ -1,8 +1,8 @@
 {
     "question": "Would you rather have...",
     "choices": ["Books that you can read, but has irrelevant information", "Computers to research with, but only limits the number of searches", "Books that you read, but the information is plagerized", "Computers to research with and has the correct information, but ads will pop up every 20 seconds"],
-    "choice1": 0,
-    "choice2": 0,
-    "choice3": 0,
-    "choice4": 0
+    "choice9": 0,
+    "choice10": 0,
+    "choice11": 0,
+    "choice12": 0
 }

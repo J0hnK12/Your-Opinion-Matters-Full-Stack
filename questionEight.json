@@ -1,8 +1,8 @@
 {
     "question": "Would you rather have...",
-    "choices": ["Bigger hands than your arms", ">Bigger feet than your legs", "Bigger fingers than your hands", "A giant head and a small body"],
-    "choice1": 0,
-    "choice2": 0,
-    "choice3": 0,
-    "choice4": 0
+    "choices": ["Athletic but everyone else around lets you do all the dirty work and not score", "Not athletic, but everyone else around lets you score", "Athletic and short, but everyone else is bigger than you and always don't get away from you", "Not athletic and really tall, but everyone else is shorter than you and always try to climb up on you"],
+    "choice29": 0,
+    "choice30": 0,
+    "choice31": 0,
+    "choice32": 0
 }

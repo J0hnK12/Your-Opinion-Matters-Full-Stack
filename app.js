@@ -143,12 +143,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 1
-    /*fs.writeFile('questionOne.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionOne.json);
+    fs.writeFile('questionOne.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionOne.json);
     });
-    */
     
     console.log(req.body.question1);
     
@@ -190,12 +189,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 2
-    /*fs.writeFile('questionTwo.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionTwo.json);
+    fs.writeFile('questionTwo.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionTwo.json);
      });
-    */
     
     console.log(req.body.question2);
     
@@ -237,12 +235,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 3
-    /*fs.writeFile('questionThree.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionThree.json);
+    fs.writeFile('questionThree.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionThree.json);
     });
-    */
     
     console.log(req.body.question3);
     
@@ -284,12 +281,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 4
-    /*fs.writeFile('questionFour.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionFour.json);
+    fs.writeFile('questionFour.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionFour.json);
     });
-    */
     
     console.log(req.body.question4);
     
@@ -331,12 +327,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 5
-    /*fs.writeFile('questionFive.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionFive.json);
+    fs.writeFile('questionFive.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionFive.json);
     });
-    */
     
     console.log(req.body.question5);
     
@@ -378,12 +373,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 6
-    /*fs.writeFile('questionSix.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionSix.json);
+    fs.writeFile('questionSix.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionSix.json);
     });
-    */
     
     console.log(req.body.question6);
     
@@ -425,12 +419,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 7
-    /*fs.writeFile('questionSeven.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionSeven.json);
+    fs.writeFile('questionSeven.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionSeven.json);
     });
-    */
     
     console.log(req.body.question7);
     
@@ -472,12 +465,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 8
-    /*fs.writeFile('questionEight.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionEight.json);
+    fs.writeFile('questionEight.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionEight.json);
     });
-    */
     
     console.log(req.body.question8);
     
@@ -519,12 +511,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 9
-    /*fs.writeFile('questionNine.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionNine.json);
+    fs.writeFile('questionNine.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionNine.json);
     });
-    */
     
     console.log(req.body.question9);
     
@@ -566,12 +557,11 @@ app.post('/answer', (req, res) => {
     }
     
     //writeFile for question 10
-    /*fs.writeFile('questionTen.json', JSON.stringify(answer), (err) => {
-            console.log(answer);
-            console.warn(err);
-            console.log(questionTen.json);
+    fs.writeFile('questionTen.json', JSON.stringify(answer), (err) => {
+        console.log(answer);
+        console.warn(err);
+        console.log(questionTen.json);
     });
-    */
     
     console.log(req.body.question10);
 });

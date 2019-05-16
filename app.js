@@ -107,10 +107,10 @@ app.get('/', (req, res) => {
 app.post('/answer', (req, res) => {
     //question 1
     let data1 = {
-        a: a,
-        b: b,
-        c: c,
-        d: d
+        choice1: a,
+        choice2: b,
+        choice3: c,
+        choice4: d
     };
     
     res.send(data1); 
@@ -153,10 +153,10 @@ app.post('/answer', (req, res) => {
     
     //question 2
     let data2 = {
-        e: e,
-        f: f,
-        g: g,
-        h: h
+        choice5: e,
+        choice6: f,
+        choice7: g,
+        choice8: h
     };
     
     res.send(data2); 
@@ -199,10 +199,10 @@ app.post('/answer', (req, res) => {
     
     //question 3
     let data3 = {
-        i: i,
-        j: j,
-        k: k,
-        l: l
+        choice9: i,
+        choice10: j,
+        choice11: k,
+        choice12: l
     };
     
     res.send(data3); 
@@ -245,10 +245,10 @@ app.post('/answer', (req, res) => {
     
     //question 4
     let data4 = {
-        m: m,
-        n: n,
-        o: o,
-        p: p
+        choice13: m,
+        choice14: n,
+        choice15: o,
+        choice16: p
     };
     
     res.send(data4); 
@@ -291,10 +291,10 @@ app.post('/answer', (req, res) => {
     
     //question 5
     let data5 = {
-        q: q,
-        r: r,
-        s: s,
-        t: t
+        choice17: q,
+        choice18: r,
+        choice19: s,
+        choice20: t
     };
     
     res.send(data5); 
@@ -337,10 +337,10 @@ app.post('/answer', (req, res) => {
     
     //question 6
     let data6 = {
-        u: u,
-        v: v,
-        w: w,
-        x: x
+        choice21: u,
+        choice22: v,
+        choice23: w,
+        choice24: x
     };
     
     res.send(data6); 
@@ -383,10 +383,10 @@ app.post('/answer', (req, res) => {
     
     //question 7
     let data7 = {
-        y: y,
-        z: z,
-        ab: ab,
-        ac: ac
+        choice25: y,
+        choice26: z,
+        choice27: ab,
+        choice28: ac
     };
     
     res.send(data7); 
@@ -429,10 +429,10 @@ app.post('/answer', (req, res) => {
     
     //question 8
     let data8 = {
-        ad: ad,
-        ae: ae,
-        af: af,
-        ag: ag
+        choice29: ad,
+        choice30: ae,
+        choice31: af,
+        choice32: ag
     };
     
     res.send(data8); 
@@ -475,10 +475,10 @@ app.post('/answer', (req, res) => {
     
     //question 9
     let data9 = {
-        ah: ah,
-        ai: ai,
-        aj: aj,
-        ak: ak
+        choice33: ah,
+        choice34: ai,
+        choice35: aj,
+        choice36: ak
     };
     
     res.send(data9); 
@@ -521,10 +521,10 @@ app.post('/answer', (req, res) => {
     
     //question 10
     let data10 = {
-        al: al,
-        am: am,
-        an: an,
-        ao: ao
+        choice37: al,
+        choice38: am,
+        choice39: an,
+        choice40: ao
     };
     
     res.send(data10); 

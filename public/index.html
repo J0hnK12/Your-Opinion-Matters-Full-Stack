@@ -36,7 +36,7 @@
     <br>
     <script>
         $("1").click(function() {
-        axios.post('/answer1', {
+        axios.post('/answer', {
             "question1": $("select[name = 'question1']").val()
         })
         .then(function(response) {
@@ -68,7 +68,7 @@
     <br>
     <script>
         $("2").click(function() {
-        axios.post('/answer2', {
+        axios.post('/answer', {
             "question2": $("select[name = 'question2']").val()
         })
         .then(function(response) {
@@ -100,7 +100,7 @@
     <br>
     <script>
         $("3").click(function() {
-        axios.post('/answer3', {
+        axios.post('/answer', {
             "question3": $("select[name = 'question3']").val()
         })
         .then(function(response) {
@@ -132,7 +132,7 @@
     <br>
     <script>
         $("4").click(function() {
-        axios.post('/answer4', {
+        axios.post('/answer', {
             "question4": $("select[name = 'question4']").val()
         })
         .then(function(response) {
@@ -164,7 +164,7 @@
     <br>
     <script>
         $("5").click(function() {
-        axios.post('/answer5', {
+        axios.post('/answer', {
             "question5": $("select[name = 'question5']").val()
         })
         .then(function(response) {
@@ -196,7 +196,7 @@
     <br>
     <script>
         $("6").click(function() {
-        axios.post('/answer6', {
+        axios.post('/answer', {
             "question6": $("select[name = 'question6']").val()
         })
         .then(function(response) {
@@ -228,7 +228,7 @@
     <br>
     <script>
         $("7").click(function() {
-        axios.post('/answer7', {
+        axios.post('/answer', {
             "question7": $("select[name = 'question7']").val()
         })
         .then(function(response) {
@@ -260,7 +260,7 @@
     <br>
     <script>
         $("8").click(function() {
-        axios.post('/answer8', {
+        axios.post('/answer', {
             "question8": $("select[name = 'question8']").val()
         })
         .then(function(response) {
@@ -292,7 +292,7 @@
     <br>
     <script>
         $("9").click(function() {
-        axios.post('/answer9', {
+        axios.post('/answer', {
             "question9": $("select[name = 'question9']").val()
         })
         .then(function(response) {
@@ -313,23 +313,23 @@
         <option value = "al">Graduate high school but not getting a job and being poor?</option>
         <option value = "am">Drop out of high school and become successful later?</option>
         <option value = "an">Graduate high school and go into a drug addiction that you were never cured from?</option>
-        <option value = "ao">Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family dies from a deadly disease that couldn't be cured?</option>
+        <option value = "ao">Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family dropped out of high school, and be unemployed for the rest of your life, while everyone in your whole family dies from a deadly disease that couldn't be cured?</option>
     </select>
 <p id = "al">Graduate high school but not getting a job and being poor: </p>
 <p id = "am">Drop out of high school and become successful later: </p>
 <p id = "an">Graduate high school and go into a drug addiction that you were never cured from: </p>
-<p id = "ao">Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family dies from a deadly disease that couldn't be cured: </p>
+<p id = "ao">Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family dropped out of high school, and be unemployed for the rest of your life, while everyone in your whole family dies from a deadly disease that couldn't be cured: </p>
     <button id = "10">Submit Your Answer</button>
 <script>
     $("10").click(function() {
-        axios.post('/answer10', {
+        axios.post('/answer', {
             "question10": $("select[name = 'question10']").val()
         })
         .then(function(response) {
             $("#al").text("Graduate high school but not getting a job and being poor: ");
             $("#am").text("Drop out of high school and become successful later: ");
             $("#an").text("Graduate high school and go into a drug addiction that you were never cured from: ");
-            $("#ao").text("Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family dies from a deadly disease that couldn't be cured: ");
+            $("#ao").text("Drop out of high school and be unemployed for the rest of your life, while everyone in your whole family dropped out of high school, and be unemployed for the rest of your life, while everyone in your whole family dies from a deadly disease that couldn't be cured: ");
         })
         .catch(function(error) {
             console.log(error);
